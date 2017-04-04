@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Boner Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Boner.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>83B49A3C1E9297A6000077C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83B49A521E9298CA000077C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
