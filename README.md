@@ -4,8 +4,8 @@
 
 ## Screenshots
 
-![img](Image/UI.png)
-![img](Image/Widget.png)
+![img](Image/UI.PNG)
+![img](Image/Widget.PNG)
 
 ## Features
 
