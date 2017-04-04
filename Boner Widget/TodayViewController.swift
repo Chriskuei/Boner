@@ -36,6 +36,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         super.viewDidLoad()
         updateOfflineStatus(prompt: "OFFLINE")
         username = BonerUserDefaults.username
+        if username == "" {
+            username = "--"
+        }
         password = BonerUserDefaults.password
         getOnlineInfo()
     }
@@ -145,6 +148,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     func updateOnlineStatus(value: String) {
         status = "ONLINE"
         let info = value.components(separatedBy: ",")
+        username = info[4]
         data = BonerFormat.formatOnlineInfo(info)
         loginSwitch.setOn(true, animated: true)
     }
